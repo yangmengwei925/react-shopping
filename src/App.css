@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    color:black;
+    font-size: 14px;
+}
+html,body,.App,#root{
+    width:100%;
+    height: 100%;
+    background: tan;
+}
+.home{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: darkcyan;
+}
+.home header{
+    width:100%;
+    height: 36px;
+    line-height: 36px;
+    background: tomato;
+    display: flex;
+    justify-content: center;
+}
+.home main{
+    flex:1;
+    overflow: auto;
+}
+
+.home footer{
+    width:100%;
+    height: 36px;
+    line-height: 36px;
+    background: tomato;
+    display: flex;
+  justify-content: space-between;
+    position: fixed;
+    bottom:0 
+}
+Nav{
+    width:100%;
+    height: 36px;
+    line-height: 36px;
+    display: flex;
+    justify-content: space-around;
+}
+Nav :hover{
+    color: red;
+}
+.active{
+    width:20px;
+    height: 36px;
+    line-height: 36px;
+    background: blueviolet;
+}
